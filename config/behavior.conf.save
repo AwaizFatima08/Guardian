@@ -1,0 +1,7 @@
+# Guardian behavior rules
+
+QUIET_START=00
+QUIET_END=06
+
+ALWAYS_ON="192.168.50.1 192.168.50.103"
+SUBNET="192.168.50."

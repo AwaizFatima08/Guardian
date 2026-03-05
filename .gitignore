@@ -1,0 +1,14 @@
+# runtime data
+raw/
+logs/
+dns/
+isp/
+scans/
+reports/
+cache/
+
+# captures and logs
+*.pcap
+*.log
+*.csv
+*.tmp
