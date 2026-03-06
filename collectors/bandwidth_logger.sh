@@ -1,6 +1,6 @@
 #!/bin/bash
 
-INTERFACE="eno1"
+INTERFACE=$(ip route get 8.8.8.8 | awk '{print $5; exit}')
 BASE_DIR="/home/homi/guardian"
 OUTPUT_DIR="$BASE_DIR/raw/bandwidth"
 
