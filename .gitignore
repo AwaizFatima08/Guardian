@@ -1,0 +1,12 @@
+# Runtime monitoring data
+logs/
+raw/
+scans/
+
+# Generated telemetry
+*.log
+*.csv
+
+# Temp files
+*.tmp
+*.lock
